@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1 class="glow-text">Welcome to My Website<span class="terminal-cursor"></span></h1>
+
+  <section id="about">
+    <h2 class="glow-text">About Me</h2>
+    <p>Hello! I’m Kris Jain, from Hazaribagh, Jharkhand. I have a passion for sports, travelling and coding. I am currently pursuing my studies in IIIT Hyderabad, and my branch is CSD, which I got through UGEE.</p>
+    <img src="assets/profile.jpeg" alt="My Profile Picture" width="200">
+  </section>
+
+  <section id="hometown">
+    <h2 class = "glow-text">Hazaribagh</h2>
+    <p>Hazaribagh is a district in Jharkhand, surrounded by forests and hills, offering peaceful landscapes and a pleasant climate, and is home to the Hazaribagh Wildlife Sanctuary.</p>
+    <img src="assets/Jheel1.jpeg" alt="Local Image" width="200">
+    <img src="assets/CanaryHills.jpeg" alt="Local Image" width="200" height="125">
+    <img src="assets/SitagarhHills.png" alt="Local Image" width="200">
+    <img src="assets/Jheel2.jpeg" alt="Local Image" width="200">
+  </section>
+
+  <section id="education">
+    <h2 class="glow-text">Education Background</h2>
+    <p>I did my education in Naman Vidya school till Class 10th, and then I studied in ALLEN Kota for 2 years. I gave numerous entrance exams like JEE Mains and Advanced, UGEE.</p>
+    <p>My Ranks:</p>
+    <ul>
+      <li>JEE Mains: 183XX</li>
+      <li>JEE Advanced: 45XX</li>
+      <li>UGEE: 53</li>
+    </ul>
+    <br>
+    <p>I am now pursuing BTech in Computer Science and Masters by Research in Computer Science (CSD) in IIIT Hyderabad. Following are my achievements:</p>
+    <ul>
+        <li>Error 404: Not found</li>
+    </ul>
+  </section>
+
+  <section id="hobbies">
+    <h2 class="glow-text">Hobbies</h2>
+    <ul>
+        <li>Cricket</li>
+        <li>Frisbee</li>
+        <li>Travelling</li>
+        <li>Coding</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2 class="glow-text">Skills</h2>
+    
+    <div class="skill">
+        <span>C</span>
+        <div class="skill-bar">
+          <div class="skill-level" style="--target-width: 90%;"></div>
+        </div>
+      </div>
+
+    <div class="skill">
+        <span>C++</span>
+        <div class="skill-bar">
+          <div class="skill-level" style="--target-width: 80%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <span>ESP32</s  pan>
+        <div class="skill-bar">
+          <div class="skill-level" style="--target-width: 80%;"></div>
+        </div>
+      </div>
+  
+    <div class="skill">
+      <span>HTML</span>
+      <div class="skill-bar">
+        <div class="skill-level" style="--target-width: 75%;"></div>
+      </div>
+    </div>
+  
+    <div class="skill">
+      <span>CSS</span>
+      <div class="skill-bar">
+        <div class="skill-level" style="--target-width: 60%;"></div>
+      </div>
+    </div>
+  
+    <div class="skill">
+      <span>JavaScript</span>
+      <div class="skill-bar">
+        <div class="skill-level" style="--target-width: 50%;"></div>
+      </div>
+    </div>
+  
+    <div class="skill">
+      <span>Python</span>
+      <div class="skill-bar">
+        <div class="skill-level" style="--target-width: 60%;"></div>
+      </div>
+    </div>
+
+  </section>
+  
+  <section id="cv">
+    <h2 class="glow-text">My CV</h2>
+    <a href="assets/cv.pdf" target="_blank">Download My CV (PDF)</a>
+  </section>
+
+  <section id="contact">
+    <h2 class="glow-text">Contact</h2>
+    <ul>
+        <li>GitHub: <a href="https://www.github.com/KJKris05/" target="_blank">KJKris05</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/kris-jain-01b489315/" target="_blank">Kris Jain</a> </li>
+        <li>Instagram: <a href="https://www.instagram.com/kris_jain_05/?hl=en" target="_blank">kris_jain_05</a></li>
+    </ul>
+  </section>
+
+  <section id="text-analysis">
+    <h2 class="glow-text">Text Analysis Tool</h2>
+    <textarea id="largeTextInput" rows="15" cols="80" placeholder="Paste your 10,000-word text here..."></textarea><br>
+    <button onclick="analyzeText()">Analyze</button>
+    <div id="output"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
